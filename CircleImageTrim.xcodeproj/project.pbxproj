@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3702401BD488AE008F95F3 /* CircleImageTrimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37023F1BD488AE008F95F3 /* CircleImageTrimViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CA3702421BD488BE008F95F3 /* CircleImageTrimViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3702411BD488BE008F95F3 /* CircleImageTrimViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CA3702441BD4A7B1008F95F3 /* CircleHollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3702431BD4A7B1008F95F3 /* CircleHollowView.swift */; settings = {ASSET_TAGS = (); }; };
+		CA3702461BD5069B008F95F3 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3702451BD5069B008F95F3 /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
+		CAA71D981BD0F3EA00DAA5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA71D971BD0F3EA00DAA5AB /* AppDelegate.swift */; };
+		CAA71D9A1BD0F3EA00DAA5AB /* MainVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA71D991BD0F3EA00DAA5AB /* MainVIewController.swift */; };
+		CAA71D9D1BD0F3EA00DAA5AB /* MainVIewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA71D9B1BD0F3EA00DAA5AB /* MainVIewController.storyboard */; };
+		CAA71D9F1BD0F3EA00DAA5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA71D9E1BD0F3EA00DAA5AB /* Assets.xcassets */; };
+		CAA71DA21BD0F3EA00DAA5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA71DA01BD0F3EA00DAA5AB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA37023F1BD488AE008F95F3 /* CircleImageTrimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageTrimViewController.swift; sourceTree = "<group>"; };
+		CA3702411BD488BE008F95F3 /* CircleImageTrimViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CircleImageTrimViewController.storyboard; sourceTree = "<group>"; };
+		CA3702431BD4A7B1008F95F3 /* CircleHollowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleHollowView.swift; sourceTree = "<group>"; };
+		CA3702451BD5069B008F95F3 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		CAA71D941BD0F3EA00DAA5AB /* CircleImageTrim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleImageTrim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA71D971BD0F3EA00DAA5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA71D991BD0F3EA00DAA5AB /* MainVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewController.swift; sourceTree = "<group>"; };
+		CAA71D9C1BD0F3EA00DAA5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainVIewController.storyboard; sourceTree = "<group>"; };
+		CAA71D9E1BD0F3EA00DAA5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAA71DA11BD0F3EA00DAA5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAA71DA31BD0F3EA00DAA5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA71D911BD0F3EA00DAA5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA71D8B1BD0F3EA00DAA5AB = {
+			isa = PBXGroup;
+			children = (
+				CAA71D961BD0F3EA00DAA5AB /* CircleImageTrim */,
+				CAA71D951BD0F3EA00DAA5AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA71D951BD0F3EA00DAA5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA71D941BD0F3EA00DAA5AB /* CircleImageTrim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA71D961BD0F3EA00DAA5AB /* CircleImageTrim */ = {
+			isa = PBXGroup;
+			children = (
+				CAA71D971BD0F3EA00DAA5AB /* AppDelegate.swift */,
+				CAA71D991BD0F3EA00DAA5AB /* MainVIewController.swift */,
+				CAA71D9B1BD0F3EA00DAA5AB /* MainVIewController.storyboard */,
+				CA37023F1BD488AE008F95F3 /* CircleImageTrimViewController.swift */,
+				CA3702411BD488BE008F95F3 /* CircleImageTrimViewController.storyboard */,
+				CA3702431BD4A7B1008F95F3 /* CircleHollowView.swift */,
+				CA3702451BD5069B008F95F3 /* UIImage.swift */,
+				CAA71D9E1BD0F3EA00DAA5AB /* Assets.xcassets */,
+				CAA71DA01BD0F3EA00DAA5AB /* LaunchScreen.storyboard */,
+				CAA71DA31BD0F3EA00DAA5AB /* Info.plist */,
+			);
+			path = CircleImageTrim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA71D931BD0F3EA00DAA5AB /* CircleImageTrim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA71DA61BD0F3EA00DAA5AB /* Build configuration list for PBXNativeTarget "CircleImageTrim" */;
+			buildPhases = (
+				CAA71D901BD0F3EA00DAA5AB /* Sources */,
+				CAA71D911BD0F3EA00DAA5AB /* Frameworks */,
+				CAA71D921BD0F3EA00DAA5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleImageTrim;
+			productName = CircleImageTrim;
+			productReference = CAA71D941BD0F3EA00DAA5AB /* CircleImageTrim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA71D8C1BD0F3EA00DAA5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ryota Iwai";
+				TargetAttributes = {
+					CAA71D931BD0F3EA00DAA5AB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CAA71D8F1BD0F3EA00DAA5AB /* Build configuration list for PBXProject "CircleImageTrim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA71D8B1BD0F3EA00DAA5AB;
+			productRefGroup = CAA71D951BD0F3EA00DAA5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA71D931BD0F3EA00DAA5AB /* CircleImageTrim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA71D921BD0F3EA00DAA5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA71DA21BD0F3EA00DAA5AB /* LaunchScreen.storyboard in Resources */,
+				CAA71D9F1BD0F3EA00DAA5AB /* Assets.xcassets in Resources */,
+				CAA71D9D1BD0F3EA00DAA5AB /* MainVIewController.storyboard in Resources */,
+				CA3702421BD488BE008F95F3 /* CircleImageTrimViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA71D901BD0F3EA00DAA5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3702401BD488AE008F95F3 /* CircleImageTrimViewController.swift in Sources */,
+				CA3702461BD5069B008F95F3 /* UIImage.swift in Sources */,
+				CAA71D9A1BD0F3EA00DAA5AB /* MainVIewController.swift in Sources */,
+				CAA71D981BD0F3EA00DAA5AB /* AppDelegate.swift in Sources */,
+				CA3702441BD4A7B1008F95F3 /* CircleHollowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAA71D9B1BD0F3EA00DAA5AB /* MainVIewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA71D9C1BD0F3EA00DAA5AB /* Base */,
+			);
+			name = MainVIewController.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA71DA01BD0F3EA00DAA5AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA71DA11BD0F3EA00DAA5AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA71DA41BD0F3EA00DAA5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAA71DA51BD0F3EA00DAA5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA71DA71BD0F3EA00DAA5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleImageTrim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.riwi.CircleImageTrim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAA71DA81BD0F3EA00DAA5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleImageTrim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.riwi.CircleImageTrim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA71D8F1BD0F3EA00DAA5AB /* Build configuration list for PBXProject "CircleImageTrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA71DA41BD0F3EA00DAA5AB /* Debug */,
+				CAA71DA51BD0F3EA00DAA5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA71DA61BD0F3EA00DAA5AB /* Build configuration list for PBXNativeTarget "CircleImageTrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA71DA71BD0F3EA00DAA5AB /* Debug */,
+				CAA71DA81BD0F3EA00DAA5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA71D8C1BD0F3EA00DAA5AB /* Project object */;
+}

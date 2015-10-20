@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--MainV Iew Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainVIewController" customModule="CircleImageTrim" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtA-hB-egc">
+                                <rect key="frame" x="30" y="550" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rgI-D0-hjE"/>
+                                    <constraint firstAttribute="width" constant="60" id="uKF-6A-7BV"/>
+                                </constraints>
+                                <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kke-0k-nhq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yZ-WJ-6qS">
+                                <rect key="frame" x="510" y="550" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="nTZ-kl-yH3"/>
+                                    <constraint firstAttribute="height" constant="30" id="ssh-um-1IK"/>
+                                </constraints>
+                                <state key="normal" title="select"/>
+                                <connections>
+                                    <action selector="tapSetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="33g-gR-1Xj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fK8-9k-Jf2">
+                                <rect key="frame" x="6" y="20" width="588" height="588"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fK8-9k-Jf2" secondAttribute="height" multiplier="1:1" id="2su-QK-g7r"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fK8-9k-Jf2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.98" id="J6E-KZ-q1C"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4yZ-WJ-6qS" secondAttribute="bottom" constant="20" id="KSq-xh-TQq"/>
+                            <constraint firstItem="fK8-9k-Jf2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="N9n-G6-Sqj"/>
+                            <constraint firstItem="NtA-hB-egc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="OUf-5z-3e2"/>
+                            <constraint firstItem="fK8-9k-Jf2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gIZ-yz-l6l"/>
+                            <constraint firstAttribute="trailing" secondItem="4yZ-WJ-6qS" secondAttribute="trailing" constant="30" id="k2P-6l-AqI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NtA-hB-egc" secondAttribute="bottom" constant="20" id="qJ8-Vi-vhR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="NtA-hB-egc" id="Yoc-yR-PVw"/>
+                        <outlet property="imageView" destination="fK8-9k-Jf2" id="TuO-48-8g4"/>
+                        <outlet property="setButton" destination="4yZ-WJ-6qS" id="03J-9x-mVz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
